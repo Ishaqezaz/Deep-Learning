@@ -1,5 +1,7 @@
 %% Set the random seed for reproducibility
 rng(400);
+addpath("data")
+addpath("functions")
 
 %% Load and preprocess data
 [trainX, trainY, trainy] = loadBatch('data_batch_1.mat');
